@@ -5,11 +5,11 @@
 
 <mapper namespace="com.mx.mybatissample.dao.IUserDAO">
 
-    <!-- 뉴스 조회 -->
+    <!-- 사용자 조회 -->
     <select id="listUser" resultType="com.mx.mybatissample.vo.UserEntity">
-        select ID
-             , user_login
-             , user_pass
-          from wp_users
+    select ID
+         , user_login
+         , user_pass
+      from wp_users
     </select>
 </mapper>
