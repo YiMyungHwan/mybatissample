@@ -4,8 +4,7 @@ import lombok.Data;
 
 @Data
 public class UserEntity {
-    private String title;
-    private String journalist;
-    private String publisher;
-    private String reg_dt;
+    private int ID;
+    private String user_login;
+    private String user_pass;
 }
